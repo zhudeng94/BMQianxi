@@ -39,7 +39,7 @@ cityRank = function(cityID) {
 }
 
 ### 全国各地热门迁入/迁出省份人口比例
-provinceRank = function(cityCode) {
+provinceRank = function(cityID) {
   all = c()
   cityCodes <- read.csv("https://raw.githubusercontent.com/zhudeng94/BMQianxi/master/BM_cityCode.csv")
   today = format(Sys.Date(), format="%Y%m%d")
@@ -67,7 +67,7 @@ provinceRank = function(cityCode) {
 }
 
 ### 各地迁徙规模指数
-cityMoveIndex = function(cityCode) {
+cityMoveIndex = function(cityID) {
   all = c()
   cityCodes <- read.csv("https://raw.githubusercontent.com/zhudeng94/BMQianxi/master/BM_cityCode.csv")
   today = format(Sys.Date(), format="%Y%m%d")
@@ -92,7 +92,7 @@ cityMoveIndex = function(cityCode) {
 }
 
 ### 各地城内出行强度
-cityInternalFlow = function(cityCode) {
+cityInternalFlow = function(cityID) {
   all = c()
   cityCodes <- read.csv("https://raw.githubusercontent.com/zhudeng94/BMQianxi/master/BM_cityCode.csv")
   today = format(Sys.Date(), format="%Y%m%d")
@@ -116,7 +116,7 @@ cityInternalFlow = function(cityCode) {
 }
 
 ### 全国各地拥堵里程
-congestDistance = function(cityCode) {
+congestDistance = function(cityID) {
   all = c()
   cityCodes <- read.csv("https://raw.githubusercontent.com/zhudeng94/BMQianxi/master/BM_cityCode.csv")
   today = format(Sys.Date(), format="%Y%m%d")
