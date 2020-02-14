@@ -1,5 +1,5 @@
 # BMQianxi
-获取迁徙数据，仅作编程方法交流。<br>
+获取某地图网站迁徙数据，仅作编程方法交流。<br>
 
 ## 用法
 cityRank(cityID)<br>
