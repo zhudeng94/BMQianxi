@@ -3,7 +3,9 @@
 <br>
 ## 用法
 ```
-source("Qianxi.R")
+source("https://raw.githubusercontent.com/zhudeng94/BMQianxi/master/Qianxi.R")
+# source("Qianxi.R")
+cityList = read.csv("https://raw.githubusercontent.com/zhudeng94/BMQianxi/master/BM_cityCode.csv")
 ```
 ## 函数
 cityID可从BM_Adcode.csv查找
