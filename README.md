@@ -13,7 +13,7 @@ cityID可从BM_Adcode.csv查找
 cityRank(cityID)
 # 采集每天（自2020年元旦以来）迁入/迁出该城市的各城市人口比例（每天Top100）
 ```
-![](https://raw.githubusercontent.com/zhudeng94/BMQianxi/master/img/wh_moveOut.mp4)
+![](https://raw.githubusercontent.com/zhudeng94/BMQianxi/master/img/wh_moveOut.gif)
 ```
 provinceRank(cityID)
 # 采集每天（自2020年元旦以来）迁入/迁出该城市的各省份人口比例
