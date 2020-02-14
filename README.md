@@ -25,10 +25,12 @@ cityMoveIndex(cityID)
 cityInternalFlow(cityID)
 # 采集每天（自2020年元旦以来）该城市内出行强度
 ```
+![](https://raw.githubusercontent.com/zhudeng94/BMQianxi/master/img/wh_cityMove.png)
 ```
 congestDistance(cityID)
 # 采集自大年初一以来该城市的拥堵里程
 ```
+![](https://raw.githubusercontent.com/zhudeng94/BMQianxi/master/img/wh_congestDistance.png)
 ## Contact
 http://zhudeng.top<br>
 zhudeng94@gmail.com
